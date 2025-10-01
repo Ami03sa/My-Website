@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +6,41 @@
     <title>Amithesh Sathish - AI Engineer</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Profile image zoom & circular */
+        .profile-image-hero {
+            width: 300px;
+            height: 300px;
+            overflow: hidden;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        #profile-pic {
+            width: 110%;
+            height: 220%;
+            object-fit: cover;
+            object-position: center 30%; /* adjust vertical focus on your face */
+        }
+
+        /* Chat button styling if not already in styles.css */
+        .btn-chat {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff;
+            background-color: #4f46e5; /* purple-ish, adjust to match theme */
+            border-radius: 0.5rem;
+            text-decoration: none;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .btn-chat:hover {
+            background-color: #3730a3;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -14,7 +48,7 @@
         <div class="nav-container">
             <div class="logo">Amithesh<span>.</span></div>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="skills.html">Skills</a></li>
                 <li><a href="experience.html">Experience</a></li>
                 <li><a href="projects.html">Projects</a></li>
@@ -30,7 +64,7 @@
                 <!-- Left Side: Profile & Info -->
                 <div class="hero-left">
                     <div class="profile-image-hero">
-                        <img src="images/profile.jpg" alt="Amithesh Sathish" id="profile-pic">
+                        <img src="images/profile.jpeg" alt="Amithesh Sathish" id="profile-pic">
                     </div>
                     
                     <p class="hero-greeting">Hi! I'm Amithesh Sathish <span class="wave">👋</span></p>
