@@ -38,17 +38,8 @@ This website showcases my work as an **AI Engineer** specializing in **Large Lan
 
 ---
 
-## 🚀 How to Use
-
-1. Visit the website: [https://ami03sa.github.io/My-Website](https://ami03sa.github.io/My-Website)  
-2. Interact with the AI assistant using the **"Chat with Me"** button.  
-3. Browse projects to explore code, AI techniques, and real-world applications.  
-4. Contact me directly through the **Contact** page for collaboration or opportunities.
-
----
 
 Thank you for visiting my portfolio! Explore, interact, and feel free to reach out for collaborations or AI discussions.  
-
 
 ---
 title: career_coversation
