@@ -930,3 +930,11 @@ footer p {
 html {
     scroll-behavior: smooth;
 }
+
+
+.chatbot-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
