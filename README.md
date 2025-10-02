@@ -30,7 +30,7 @@ This website showcases my work as an **AI Engineer** specializing in **Large Lan
 ## 💻 Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript, React.js  
-- **Backend / AI Integration:** Flask, LangChain, OpenAI GPT-4 API, Hugging Face  
+- **Backend / AI Integration:** Flask, LangChain, OpenAI GPT-4 API, Hugging Face, Gradio 
 - **AI / ML:** RAG pipelines, LLM fine-tuning, embeddings, autonomous agents  
 - **Data Storage / Vector Search:** Pinecone, FAISS  
 - **Deployment:** GitHub Pages, Hugging Face Spaces  
