@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BallTalk - Amithesh Sathish</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .balltalk-hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .balltalk-logo {
+            width: 160px;
+            height: 160px;
+            border-radius: 24px;
+            overflow: hidden;
+            background: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .balltalk-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .balltalk-card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 2.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            max-width: 720px;
+            margin: 0 auto 3rem;
+        }
+
+        .balltalk-card p {
+            color: var(--gray);
+            line-height: 1.8;
+            font-size: 1.05rem;
+        }
+
+        .balltalk-card p + p {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">Amithesh<span>.</span></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="balltalk.html" class="active">BallTalk</a></li>
+                <li><a href="me/resume.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- BallTalk Section -->
+    <section class="page-section">
+        <div class="page-header">
+            <h1 class="page-title">BallTalk</h1>
+            <p class="page-subtitle">Agentic AI for NBA analytics, built on top of NBA Pandit</p>
+        </div>
+
+        <div class="balltalk-hero">
+            <div class="balltalk-logo">
+                <img src="images/balltalk-logo.png" alt="BallTalk logo">
+            </div>
+        </div>
+
+        <div class="balltalk-card">
+            <p>
+                BallTalk is an AI-powered NBA analytics assistant that automatically gathers and analyzes
+                player and team data, turning raw stats into predictive insights and visualizations on demand.
+            </p>
+            <p>
+                It's used by coaching staff across the NBA, including the Detroit Pistons, Milwaukee Bucks,
+                and Utah Jazz, and serves 100k+ users looking for fast, agentic basketball analysis.
+            </p>
+        </div>
+
+        <div class="page-cta">
+            <h3>Try BallTalk live</h3>
+            <div class="cta-buttons">
+                <a href="https://nba-pandit.vercel.app" target="_blank" class="btn btn-primary">Open BallTalk →</a>
+                <a href="projects.html" class="btn btn-secondary">View My Other Projects</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Amithesh Sathish. Built with passion for AI and innovation.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
